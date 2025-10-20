@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36511.14 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "praktik3.7_Rizkiiqbaltawakkal_XPPLG1", "praktik3.7_Rizkiiqbaltawakkal_XPPLG1\praktik3.7_Rizkiiqbaltawakkal_XPPLG1.csproj", "{92408C4C-2412-421E-8CD3-C052EBB4CC59}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92408C4C-2412-421E-8CD3-C052EBB4CC59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92408C4C-2412-421E-8CD3-C052EBB4CC59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92408C4C-2412-421E-8CD3-C052EBB4CC59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92408C4C-2412-421E-8CD3-C052EBB4CC59}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {15E659A7-57F4-4E74-B319-8E1949419EC4}
+	EndGlobalSection
+EndGlobal
