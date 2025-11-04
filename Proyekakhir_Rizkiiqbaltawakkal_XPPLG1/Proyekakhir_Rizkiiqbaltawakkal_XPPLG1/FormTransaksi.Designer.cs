@@ -51,48 +51,51 @@ namespace Proyekakhir_Rizkiiqbaltawakkal_XPPLG1
             // lblNamaPemesan
             // 
             lblNamaPemesan.AutoSize = true;
-            lblNamaPemesan.Location = new Point(212, 115);
+            lblNamaPemesan.Location = new Point(186, 86);
             lblNamaPemesan.Name = "lblNamaPemesan";
-            lblNamaPemesan.Size = new Size(52, 20);
+            lblNamaPemesan.Size = new Size(42, 15);
             lblNamaPemesan.TabIndex = 0;
             lblNamaPemesan.Text = "Nama:";
-            lblNamaPemesan.Click += this.lblNamaPemesan_Click;
+            lblNamaPemesan.Click += lblNamaPemesan_Click;
             // 
             // cmbmakanan
             // 
             cmbmakanan.FormattingEnabled = true;
-            cmbmakanan.Location = new Point(299, 154);
+            cmbmakanan.Location = new Point(262, 116);
+            cmbmakanan.Margin = new Padding(3, 2, 3, 2);
             cmbmakanan.Name = "cmbmakanan";
-            cmbmakanan.Size = new Size(151, 28);
+            cmbmakanan.Size = new Size(133, 23);
             cmbmakanan.TabIndex = 1;
-            cmbmakanan.SelectedIndexChanged += this.cmbmakanan_SelectedIndexChanged;
+            cmbmakanan.SelectedIndexChanged += cmbmakanan_SelectedIndexChanged;
             // 
             // txtNama
             // 
-            txtNama.Location = new Point(299, 112);
+            txtNama.Location = new Point(262, 84);
+            txtNama.Margin = new Padding(3, 2, 3, 2);
             txtNama.Name = "txtNama";
-            txtNama.Size = new Size(125, 27);
+            txtNama.Size = new Size(110, 23);
             txtNama.TabIndex = 2;
-            txtNama.TextChanged += this.txtNama_TextChanged;
+            txtNama.TextChanged += txtNama_TextChanged;
             // 
             // lblMakanan
             // 
             lblMakanan.AutoSize = true;
-            lblMakanan.Location = new Point(212, 157);
+            lblMakanan.Location = new Point(186, 118);
             lblMakanan.Name = "lblMakanan";
-            lblMakanan.Size = new Size(72, 20);
+            lblMakanan.Size = new Size(59, 15);
             lblMakanan.TabIndex = 3;
             lblMakanan.Text = "Makanan:";
-            lblMakanan.Click += this.lblMakanan_Click;
+            lblMakanan.Click += lblMakanan_Click;
             // 
             // dgv1
             // 
             dgv1.BackgroundColor = SystemColors.ButtonHighlight;
             dgv1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgv1.Location = new Point(557, 215);
+            dgv1.Location = new Point(487, 161);
+            dgv1.Margin = new Padding(3, 2, 3, 2);
             dgv1.Name = "dgv1";
             dgv1.RowHeadersWidth = 51;
-            dgv1.Size = new Size(283, 160);
+            dgv1.Size = new Size(248, 120);
             dgv1.TabIndex = 4;
             dgv1.CellContentClick += dataGridView1_CellContentClick;
             // 
@@ -100,28 +103,29 @@ namespace Proyekakhir_Rizkiiqbaltawakkal_XPPLG1
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI Black", 16.2F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            label3.Location = new Point(384, 13);
+            label3.Location = new Point(336, 10);
             label3.Name = "label3";
-            label3.Size = new Size(346, 38);
+            label3.Size = new Size(269, 30);
             label3.TabIndex = 5;
             label3.Text = "Warung makan pak ole";
-            label3.Click += this.label3_Click;
+            label3.Click += label3_Click;
             // 
             // lblMinuman
             // 
             lblMinuman.AutoSize = true;
-            lblMinuman.Location = new Point(212, 199);
+            lblMinuman.Location = new Point(186, 149);
             lblMinuman.Name = "lblMinuman";
-            lblMinuman.Size = new Size(74, 20);
+            lblMinuman.Size = new Size(62, 15);
             lblMinuman.TabIndex = 7;
             lblMinuman.Text = "Minuman:";
-            lblMinuman.Click += this.lblMinuman_Click;
+            lblMinuman.Click += lblMinuman_Click;
             // 
             // btnPesan
             // 
-            btnPesan.Location = new Point(212, 346);
+            btnPesan.Location = new Point(186, 260);
+            btnPesan.Margin = new Padding(3, 2, 3, 2);
             btnPesan.Name = "btnPesan";
-            btnPesan.Size = new Size(94, 29);
+            btnPesan.Size = new Size(82, 22);
             btnPesan.TabIndex = 8;
             btnPesan.Text = "Pesan";
             btnPesan.UseVisualStyleBackColor = true;
@@ -129,9 +133,10 @@ namespace Proyekakhir_Rizkiiqbaltawakkal_XPPLG1
             // 
             // btnclear
             // 
-            btnclear.Location = new Point(330, 346);
+            btnclear.Location = new Point(289, 260);
+            btnclear.Margin = new Padding(3, 2, 3, 2);
             btnclear.Name = "btnclear";
-            btnclear.Size = new Size(94, 29);
+            btnclear.Size = new Size(82, 22);
             btnclear.TabIndex = 9;
             btnclear.Text = "clear";
             btnclear.UseVisualStyleBackColor = true;
@@ -140,72 +145,75 @@ namespace Proyekakhir_Rizkiiqbaltawakkal_XPPLG1
             // cmbMinuman
             // 
             cmbMinuman.FormattingEnabled = true;
-            cmbMinuman.Location = new Point(299, 196);
+            cmbMinuman.Location = new Point(262, 147);
+            cmbMinuman.Margin = new Padding(3, 2, 3, 2);
             cmbMinuman.Name = "cmbMinuman";
-            cmbMinuman.Size = new Size(151, 28);
+            cmbMinuman.Size = new Size(133, 23);
             cmbMinuman.TabIndex = 10;
-            cmbMinuman.SelectedIndexChanged += this.cmbMinuman_SelectedIndexChanged;
+            cmbMinuman.SelectedIndexChanged += cmbMinuman_SelectedIndexChanged;
             // 
             // txtPorsi
             // 
-            txtPorsi.Location = new Point(299, 242);
+            txtPorsi.Location = new Point(262, 182);
+            txtPorsi.Margin = new Padding(3, 2, 3, 2);
             txtPorsi.Name = "txtPorsi";
-            txtPorsi.Size = new Size(125, 27);
+            txtPorsi.Size = new Size(110, 23);
             txtPorsi.TabIndex = 12;
             txtPorsi.TextChanged += txtPorsi_TextChanged;
             // 
             // lblnomeja
             // 
             lblnomeja.AutoSize = true;
-            lblnomeja.Location = new Point(212, 289);
+            lblnomeja.Location = new Point(186, 217);
             lblnomeja.Name = "lblnomeja";
-            lblnomeja.Size = new Size(69, 20);
+            lblnomeja.Size = new Size(55, 15);
             lblnomeja.TabIndex = 13;
             lblnomeja.Text = "No Meja:";
-            lblnomeja.Click += this.lblnomeja_Click;
+            lblnomeja.Click += lblnomeja_Click;
             // 
             // txtnomeja
             // 
-            txtnomeja.Location = new Point(299, 289);
+            txtnomeja.Location = new Point(262, 217);
+            txtnomeja.Margin = new Padding(3, 2, 3, 2);
             txtnomeja.Name = "txtnomeja";
-            txtnomeja.Size = new Size(125, 27);
+            txtnomeja.Size = new Size(110, 23);
             txtnomeja.TabIndex = 14;
-            txtnomeja.TextChanged += this.txtnomeja_TextChanged;
+            txtnomeja.TextChanged += txtnomeja_TextChanged;
             // 
             // lblRp
             // 
             lblRp.AutoSize = true;
-            lblRp.Location = new Point(567, 98);
+            lblRp.Location = new Point(496, 74);
             lblRp.Name = "lblRp";
-            lblRp.Size = new Size(30, 20);
+            lblRp.Size = new Size(24, 15);
             lblRp.TabIndex = 15;
             lblRp.Text = "Rp:";
-            lblRp.Click += this.lblRp_Click;
+            lblRp.Click += lblRp_Click;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(592, 98);
+            label2.Location = new Point(518, 74);
             label2.Name = "label2";
-            label2.Size = new Size(0, 20);
+            label2.Size = new Size(0, 15);
             label2.TabIndex = 16;
-            label2.Click += this.label2_Click;
+            label2.Click += label2_Click;
             // 
             // lblporsi
             // 
             lblporsi.AutoSize = true;
-            lblporsi.Location = new Point(212, 249);
+            lblporsi.Location = new Point(186, 187);
             lblporsi.Name = "lblporsi";
-            lblporsi.Size = new Size(43, 20);
+            lblporsi.Size = new Size(36, 15);
             lblporsi.TabIndex = 17;
             lblporsi.Text = "Porsi:";
-            lblporsi.Click += this.lblporsi_Click_1;
+            lblporsi.Click += lblporsi_Click_1;
             // 
             // FormTransaksi
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(921, 414);
+            ClientSize = new Size(806, 408);
             Controls.Add(lblporsi);
             Controls.Add(label2);
             Controls.Add(lblRp);
@@ -222,6 +230,7 @@ namespace Proyekakhir_Rizkiiqbaltawakkal_XPPLG1
             Controls.Add(txtNama);
             Controls.Add(cmbmakanan);
             Controls.Add(lblNamaPemesan);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "FormTransaksi";
             Text = "FormTransaksi";
             Load += FormTransaksi1_Load;

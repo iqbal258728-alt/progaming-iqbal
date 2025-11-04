@@ -14,10 +14,10 @@ namespace Proyekakhir_Rizkiiqbaltawakkal_XPPLG1
 
         private void btnlogin_Click(object sender, EventArgs e)
         {
-            //username dan password yang benar
+            // username dan password yang benar
             string usernameTrue = "IQBAL";
             string passwordtrue = "12345";
-
+           
             //Mengambil Input dari user
             string usernameInput = txtusername.Text;
             string passwordInput = txtpassword.Text;
@@ -28,14 +28,9 @@ namespace Proyekakhir_Rizkiiqbaltawakkal_XPPLG1
                 // jika login Berhasil
                 MessageBox.Show("Login Berhasil", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                //Membuka Transaksi
-                //FormTransaksi1 formTransaksi = new FormTransaksi1();
-                //formTransaksi.Show();
-
-                // ke menu transaksi
-                FormTransaksi formTransaksi = new FormTransaksi();
-                formTransaksi.Show();
-
+                // membuka Form Transaksi
+                Form2 form2 = new Form2();
+                form2.Show();
 
 
                 // Menyembunyikan Form Login (bukan menutup, agar aplikasi tidak berhenti)
