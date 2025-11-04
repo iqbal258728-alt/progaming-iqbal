@@ -1,0 +1,7 @@
+C:\Users\LENOVO\Documents\Tugas vsc\praktik7.1_Rizkiiqbaltawakkal_XPPLG1\praktik7.1_Rizkiiqbaltawakkal_XPPLG1\bin\Debug\praktik7.1_Rizkiiqbaltawakkal_XPPLG1.exe.config
+C:\Users\LENOVO\Documents\Tugas vsc\praktik7.1_Rizkiiqbaltawakkal_XPPLG1\praktik7.1_Rizkiiqbaltawakkal_XPPLG1\bin\Debug\praktik7.1_Rizkiiqbaltawakkal_XPPLG1.exe
+C:\Users\LENOVO\Documents\Tugas vsc\praktik7.1_Rizkiiqbaltawakkal_XPPLG1\praktik7.1_Rizkiiqbaltawakkal_XPPLG1\bin\Debug\praktik7.1_Rizkiiqbaltawakkal_XPPLG1.pdb
+C:\Users\LENOVO\Documents\Tugas vsc\praktik7.1_Rizkiiqbaltawakkal_XPPLG1\praktik7.1_Rizkiiqbaltawakkal_XPPLG1\obj\Debug\praktik7.1_Rizkiiqbaltawakkal_XPPLG1.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Documents\Tugas vsc\praktik7.1_Rizkiiqbaltawakkal_XPPLG1\praktik7.1_Rizkiiqbaltawakkal_XPPLG1\obj\Debug\praktik7.1_Rizkiiqbaltawakkal_XPPLG1.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Documents\Tugas vsc\praktik7.1_Rizkiiqbaltawakkal_XPPLG1\praktik7.1_Rizkiiqbaltawakkal_XPPLG1\obj\Debug\praktik7.1_Rizkiiqbaltawakkal_XPPLG1.exe
+C:\Users\LENOVO\Documents\Tugas vsc\praktik7.1_Rizkiiqbaltawakkal_XPPLG1\praktik7.1_Rizkiiqbaltawakkal_XPPLG1\obj\Debug\praktik7.1_Rizkiiqbaltawakkal_XPPLG1.pdb

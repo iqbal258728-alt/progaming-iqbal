@@ -1,0 +1,2 @@
+C:\Users\LENOVO\Documents\Tugas vsc\Praktik7.1_Rizkiiqbalyawakkal_XPPLG1\Praktik7.1_Rizkiiqbalyawakkal_XPPLG1\obj\Debug\Praktik7.1_Rizkiiqbalyawakkal_XPPLG1.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Documents\Tugas vsc\Praktik7.1_Rizkiiqbalyawakkal_XPPLG1\Praktik7.1_Rizkiiqbalyawakkal_XPPLG1\obj\Debug\Praktik7.1_Rizkiiqbalyawakkal_XPPLG1.csproj.CoreCompileInputs.cache
