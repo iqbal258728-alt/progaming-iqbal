@@ -39,5 +39,10 @@ namespace Proyekakhir1_RizkiIqbalTawakkal_XPPLG1
                 txtpassword.Focus();
             }
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
