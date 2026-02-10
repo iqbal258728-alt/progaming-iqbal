@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+             <p>Penerimaan Peserta Didik Baru (PPDB)</p>
+        </div>
+
+        <form class="form-content" id="registrationForm">
+            <!-- BIODATA SISWA Section -->
+            <div class="section">
+                <h2 class="section-title">BIODATA SISWA</h2>
+
+                <div class="form-group">
+                    <label for="noUN">No UN SMP/MTs/Sederajat</label>
+                    <input type="text" id="noUN" name="noUN" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="namaLengkap">Nama Lengkap</label>
+                    <input type="text" id="namaLengkap" name="namaLengkap" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Jenis Kelamin</label>
+                    <div class="radio-group">
+                        <div class="radio-option">
+                            <input type="radio" id="lakiLaki" name="jenisKelamin" value="Laki-laki" required>
+                            <label for="lakiLaki">Laki-laki</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" id="perempuan" name="jenisKelamin" value="Perempuan" required>
+                            <label for="perempuan">Perempuan</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="namaOrangTua">Nama Orangtua/Wali</label>
+                    <input type="text" id="namaOrangTua" name="namaOrangTua" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="alamat">
+                        Alamat
+                        <span class="label-detail">(Sesuai KK/KTP/Surat Ket. Domisili & Bin Ortu/Wali/murd calon siswa)</span>
+                    </label>
+                    <textarea id="alamat" name="alamat" required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="kotaKabupaten">Kota/Kabupaten</label>
+                    <input type="text" id="kotaKabupaten" name="kotaKabupaten" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="asalSekolah">Asal Sekolah</label>
+                    <input type="text" id="asalSekolah" name="asalSekolah" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="agama">Agama</label>
+                    <select id="agama" name="agama" required>
+                        <option value="">Pilih Agama</option>
+                        <option value="Islam">Islam</option>
+                        <option value="Kristen">Kristen</option>
+                        <option value="Katolik">Katolik</option>
+                        <option value="Hindu">Hindu</option>
+                        <option value="Buddha">Buddha</option>
+                        <option value="Konghucu">Konghucu</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- PENILAIAN Section -->
+            <div class="section">
+                <h2 class="section-title">PENILAIAN</h2>
+
+                <h3 style="font-weight: 600; margin-bottom: 1rem; color: var(--primary);">NILAI UJIAN NASIONAL (NUN)</h3>
+                
+                <div class="score-grid">
+                    <div class="score-item">
+                        <label for="nilaiMatematika">1. Matematika</label>
+                        <input type="number" id="nilaiMatematika" name="nilaiMatematika" step="0.01" min="0" max="100" required>
+                    </div>
+                    <div class="score-item">
+                        <label for="nilaiBahasaIndonesia">2. Bahasa Indonesia</label>
+                        <input type="number" id="nilaiBahasaIndonesia" name="nilaiBahasaIndonesia" step="0.01" min="0" max="100" required>
+                    </div>
+                    <div class="score-item">
+                        <label for="nilaiBahasaInggris">3. Bahasa Inggris</label>
+                        <input type="number" id="nilaiBahasaInggris" name="nilaiBahasaInggris" step="0.01" min="0" max="100" required>
+                    </div>
+                    <div class="score-item">
+                        <label for="nilaiIPA">4. Ilmu Pengetahuan Alam (IPA)</label>
+                        <input type="number" id="nilaiIPA" name="nilaiIPA" step="0.01" min="0" max="100" required>
+                    </div>
+                </div>
+
+                <div class="total-section">
+                    <div class="total-row">
+                        <label for="jumlahNUN">Jumlah NUN</label>
+                        <input type="number" id="jumlahNUN" name="jumlahNUN" step="0.01" readonly>
+                    </div>
+
+                    <div class="total-row">
+                        <label for="nilaiBonus">Nilai Bonus Prestasi (NBP)</label>
+                        <input type="number" id="nilaiBonus" name="nilaiBonus" step="0.01" min="0" max="100">
+                    </div>
+
+                    <div class="total-row">
+                        <label for="nilaiAkhir">Jumlah Total Nilai Akhir PPDB</label>
+                        <input type="number" id="nilaiAkhir" name="nilaiAkhir" step="0.01" readonly>
+                    </div>
+                    <div class="formula">(Rumus: NUN + NBP)</div>
+                </div>
+            </div>
+
+            <button type="submit" class="submit-btn">KIRIM FORMULIR PENDAFTARAN</button>
+        </form>
+    </div>
+
+</body>
+</html>
