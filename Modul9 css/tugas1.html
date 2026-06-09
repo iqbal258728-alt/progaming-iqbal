@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Box Model</title>
+    <style>
+        body {
+            font-family: 'segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: rgb(38, 22, 154);
+        }
+
+        header {
+            margin-bottom: 2em;
+            text-align: center;
+        }
+
+        .button-cta {
+            display: block;
+            margin-bottom: 1em;
+            padding: 0.5em 1 em;
+            border-radius: 0.5em;
+            border: 1px solid navy;
+            color: black;
+        }
+
+        article {
+            border: 1px solid silver;
+            border-radius: 0.8em;
+            padding: 1em;
+            margin-bottom: 1em;
+            background-color: white;
+        }
+
+        .action-buttons {
+            margin-top: 1.5em;
+        }
+
+        .action-buttons button {
+            display: inline;
+            margin-right: 1em;
+            padding: 0.5em 1em;
+            border-radius: 0.8em;
+            border: 1px solid silver;
+        }
+
+        footer {
+            font-size: small;
+            margin-top: 6em;
+            text-align: center;
+        }
+
+        img {
+            display: block;
+            margin: 10px;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+
+        .image {
+            align-items: center;
+            padding-left: 210px;
+            padding-bottom: 30px;
+        }
+
+        display{
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+        font-family: Arial,
+        sans-serif;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 8px;
+            padding: 30px 40px;
+            width: 500px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .container {
+            display: flex;
+            gap: 40px;
+        }
+
+        .kolom {
+            flex: 1;
+        }
+
+        .kolom h3 {
+            font-weight: bold;
+            margin-bottom: 12px;
+            margin-top: 0;
+            font-size: 15px;
+        }
+
+        .kolom ul {
+            list-style: disc;
+            padding-left: 20px;
+            margin: 0;
+            font-weight: bold;
+        }
+
+        .kolom ul li {
+            margin-bottom: 8px;
+            font-size: 14px;
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Blog Sederhana</h1>
+        <p>Foto Saya</p>
+
+    </header>
+
+    <div class="image">
+        <img src="foto/foto seleksi.jpg" alt="">
+    </div>
+    <article>
+        <p>Box model adalah model yang di pakai untuk menampilkan elemen html di browser.
+            Model ini akan memudahkan kita mengatur ukuran,posisi,dan properti lainnya.
+        </p>
+
+        <div class="action-buttons">
+            <button>&#x1F44D</button>
+            <button>&#128552 Comment</button>
+            <button>&#xf16d</button>
+        </div>
+    </article>
+
+    <article>
+        <p>Kompetensi yang sudah saya pelajari di jurusan saya adalah HTML, CSS,dan
+            Python. Saya sudah dapat membuat halaman web sederhana dan memahami
+            dasar-dasar pemrograman.
+        </p>
+
+        <div class="action-buttons">
+            <button>&#x1F44D</button>
+            <button>&#128552 Comment</button>
+            <button>&#xf16d</button>
+        </div>
+    </article>
+
+    <div class="card">
+        <div class="container">
+            <div class="kolom">
+                <h3>Skill</h3>
+                <ul>
+                    <li>HTML (Expert)</li>
+                    <li>CSS (Beginner)</li>
+                    <li>Python (Beginner)</li>
+                </ul>
+            </div>
+            <div class="kolom">
+                <h3>Pengalaman</h3>
+                <ul>
+                    <li>Freelancer di Internet</li>
+                    <li>Leader Local Linux Community</li>
+                    <li>Leader Local Linux Community</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        Copyright &copy; X PPLG
+    </footer>
+</body>
+
+</html>
